@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implicit flow</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="comment-sender">
+        <input class="comment-sender-input" name="comment-sender-input" 
+            type="number" placeholder="Введите ID пользователя" min="1"/>
+        <button class="comment-sender-btn" onclick="btnGetPostsHandler()">Получить посты</button>
+        <div class="user-posts"></div>
+    </div>
+    <div class="friends-div">
+    </div>
+    <script src="app_logic.js"></script>
+</body>
+</html>
