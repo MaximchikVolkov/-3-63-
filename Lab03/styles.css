@@ -1,0 +1,7 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid purple;
+}
