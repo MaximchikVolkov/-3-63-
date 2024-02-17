@@ -1,0 +1,43 @@
+category { 
+    width: 100%; 
+} 
+
+name, book {
+    display: block;
+}
+
+name {
+    color: rgb(119, 46, 38); 
+    font-style: italic;
+    font-size: 24px;
+}
+
+book {
+    margin-bottom: 20px;
+}
+
+title {
+    color: rgb(20, 22, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+author {
+    color:rgb(100, 68, 229);
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    margin-right: 15px;
+}
+
+year {
+    color: rgb(0, 14, 30);
+    font-style: oblique;
+    font-size: larger;
+    margin-right: 15px;
+}
+            
+rating {
+    color: rgb(18, 122, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
