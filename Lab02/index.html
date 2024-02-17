@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>XML Parser</title>
+</head>
+<body>
+    <div class="body">
+        <div class="xml-input"> 
+            <label class="xml-input-label">Выберите XML файл: </label>
+            <input class="xml-input-field" name="xml-input" type="file" accept=".xml" onchange="inputOnChangeHandler(this)"/> 
+        </div>
+        <div class="elem-num-input"> 
+            <label class="elem-num-input-label">Введите номер элемента 2-го уровня: </label>
+            <input class="elem-num-input-field" name="elem-num-input" type="number" /> 
+        </div>
+        <button class="print-button" type="button" onclick="btnOnClickHandler()">Вывести</button>
+    </div>
+    <script src="app_logic.js"></script>
+</body>
+</html>
