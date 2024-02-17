@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="styles.css" type="text/css"?>
+<!DOCTYPE library>
+<library>
+    <category>
+        <name>Фантастика</name>
+        <book>
+            <title>Война миров</title>
+            <author>Герберт Уэллс</author>
+            <year>1898</year>
+            <rating>4.5</rating>
+        </book>
+        <book>
+            <title>1984</title>
+            <author>Джордж Оруэлл</author>
+            <year>1949</year>
+            <rating>4.8</rating>
+        </book>
+    </category>
+    <category>
+        <name>Детективы</name>
+        <book>
+            <title>Убийство в «Восточном экспрессе»</title>
+            <author>Агата Кристи</author>
+            <year>1934</year>
+            <rating>4.7</rating>
+        </book>
+        <book>
+            <title>Тёмные воды</title>
+            <author>Роберто Савиано</author>
+            <year>2016</year>
+            <rating>4.3</rating>
+        </book>
+    </category>
+    <category>
+        <name>Романы</name>
+        <book>
+            <title>Гордость и предубеждение</title>
+            <author>Джейн Остин</author>
+            <year>1813</year>
+            <rating>4.9</rating>
+        </book>
+        <book>
+            <title>Мастер и Маргарита</title>
+            <author>Михаил Булгаков</author>
+            <year>1967</year>
+            <rating>4.6</rating>
+        </book>
+    </category>
+</library>
